@@ -410,34 +410,6 @@
           "_styles": {
             "padding-top": "(@paddingTop * 15px)",
             "padding-bottom": "(@paddingBottom * 15px)",
-            "background-color": "@bgColor",
-            "h1": {
-              "margin-bottom": "20px"
-            },
-            ".wrapper": {
-              "text-align": "center"
-            },
-            ".amp-iconfont": {
-              "padding": "1rem",
-              "margin": ".5rem",
-              "background": "@iconsBg",
-              "color": "contrast(@iconsBg, darken(@iconsBg, 50%), #ffffff, 60%)",
-              "font-size": "~\"@{iconsSize}rem\""
-            }
-          },
-          "_name": "social-follow",
-          "_customHTML": "<section class=\"social-follow\" group=\"Social\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"4\" step=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"4\" step=\"1\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"range\" inline title=\"Icons Count\" name=\"iconsCount\" min=\"1\" max=\"10\" value=\"7\" step=\"1\">\n        <input type=\"range\" inline title=\"Icons Size\" name=\"iconsSize\" min=\"0.8\" max=\"5\" step=\"0.1\" value=\"2\">\n        <input type=\"color\" name=\"iconsBg\" title=\"Icons Bg\" value=\"#0dd1ff\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n\n    <div class=\"wrapper\">\n        <h1 class=\"mbr-fonts-style align-center mbr-light\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">\n            Follow Us\n        </h1>\n        <div class=\"icons-list\" mbr-list mbr-list-grow=\"iconsCount\">\n            <a href=\"http://www.youtube.com/channel/UCt_tncVAetpK5JeM8L-8jyw\" target=\"_blank\">\n                <span mbr-icon class=\"amp-iconfont fa-youtube fa\"></span>\n            </a>\n            <a href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\" target=\"_blank\">\n                <span mbr-icon class=\"amp-iconfont fa-facebook-square fa\"></span>\n            </a>\n            <a href=\"https://plus.google.com/u/0/+Mobirise/posts\" target=\"_blank\">\n                <span mbr-icon class=\"amp-iconfont fa-google-plus fa\"></span>\n            </a>\n            <a href=\"https://www.linkedin.com/in/mobirise\" target=\"_blank\"><span mbr-icon class=\"amp-iconfont fa-linkedin-square fa\"></span></a>\n            <a href=\"https://www.pinterest.com/mobirise/\" target=\"_blank\">\n                <span mbr-icon class=\"amp-iconfont fa-pinterest-square fa\"></span>\n            </a>\n            <a href=\"https://instagram.com/mobirise/\" target=\"_blank\">\n                <span mbr-icon class=\"amp-iconfont fa-instagram fa\" target=\"_blank\"></span>\n            </a>\n            <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                <span mbr-icon class=\"amp-iconfont fa-twitter fa\"></span>\n            </a>\n        </div>\n    </div>\n</section>",
-          "_cid": "qIwfrPyg1Z",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {},
-          "_anchor": "social-follow-6"
-        },
-        {
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
             "& when (@bg-type = 'image')": {
               "background-image": "url(@bg-value)"
             },
